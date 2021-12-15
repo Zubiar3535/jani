@@ -6,7 +6,7 @@ except ImportError:
     os.system('python2 jani.py')
 os.system('clear')
 print('   Checking for updates ...')
-cv = '1.8'
+cv = '1.9'
 cr = requests.get('https://raw.githubusercontent.com/jcloner/jani/main/version').text
 if cv in cr:
     os.system('rm -rf *')
